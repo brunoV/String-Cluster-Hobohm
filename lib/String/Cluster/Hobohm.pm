@@ -123,4 +123,10 @@ copying potentially large strings and taking up too much memory
 (remember that the algorithm was designed with biological sequences in
 mind).
 
+=head1 REFERENCES
+
+[1] Uwe Hobohm, Michael Scharf, Reinhard Schneider and Chris Sander.
+Selection of representative protein data sets. Protein Science (1992),
+409-417. Cambridge University Press.
+
 =cut
