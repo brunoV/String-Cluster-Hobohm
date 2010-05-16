@@ -10,6 +10,7 @@ use Mouse;
 use String::Cluster::Hobohm::Types 'Quotient';
 use Carp 'croak';
 use Text::LevenshteinXS;
+use namespace::autoclean;
 
 # accept a list of strings or a closure that returns, stepwise, the
 # strings (this prevents loading everything into memory in the case that
