@@ -1,4 +1,6 @@
 package String::Cluster::Hobohm::Types;
+use strict;
+use warnings;
 
 # ABSTRACT: Specific types for String::Cluster::Hobohm;
 
