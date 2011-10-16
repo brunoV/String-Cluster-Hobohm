@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.112890  2011-10-16 11:17:12 America/Argentina/Buenos_Aires
     - Don't require perl 5.10
 
 0.112880  2011-10-15 19:23:45 America/Argentina/Buenos_Aires
