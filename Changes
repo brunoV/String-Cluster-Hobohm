@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+    - Don't require perl 5.10
 
 0.112880  2011-10-15 19:23:45 America/Argentina/Buenos_Aires
     - Initial release to CPAN
