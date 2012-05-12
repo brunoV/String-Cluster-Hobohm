@@ -64,7 +64,7 @@ sub _similarity {
     my $distance = Text::LevenshteinXS::distance(@seqs);
     defined $distance or croak "unable to compute distance";
 
-    return 1 - $distance / length( $seqs[0] );
+    return 1 - $distance / (length( $seqs[0] ) || 1);
 }
 
 __PACKAGE__->meta->make_immutable;
@@ -118,10 +118,9 @@ The data structure returned after clustering would be:
 
     [ [ \'foo', \'foa' ], [ \'bar' ] ];
 
-The reason to use references instead of the actual strings is to avoid
-copying potentially large strings and taking up too much memory
-(remember that the algorithm was designed with biological sequences in
-mind).
+The reason for using references instead of the actual strings is to avoid
+copying potentially large strings and taking up too much memory (remember that
+the algorithm was designed with biological sequences in mind).
 
 =head1 REFERENCES
 
