@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.121330  2012-05-12 13:03:26 America/Argentina/Buenos_Aires
+    - Allow empty strings as input (Bug #77148: empty string cause crash).
+
 0.112890  2011-10-16 11:17:12 America/Argentina/Buenos_Aires
     - Don't require perl 5.10
 
