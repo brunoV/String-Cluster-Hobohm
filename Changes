@@ -1,6 +1,9 @@
-Revision history for {{$dist->name}}
+Revision history for String-Cluster-Hobohm
 
 {{$NEXT}}
+
+0.141020  2014-04-12 15:23:39ART-0300 America/Argentina/Buenos_Aires
+    - Remove dependency on namespace::autoclean (Github #1)
 
 0.121330  2012-05-12 13:03:26 America/Argentina/Buenos_Aires
     - Allow empty strings as input (Bug #77148: empty string cause crash).
