@@ -87,7 +87,7 @@ __PACKAGE__->meta->make_immutable;
 
 =head1 DESCRIPTION
 
-String::Clusterer::Hobohm implements the Hobohm clustering algorithm
+String::Cluster::Hobohm implements the Hobohm clustering algorithm
 [1], originally devised to reduce redundancy of biological sequence data
 sets.
 
