@@ -75,7 +75,7 @@ __PACKAGE__->meta->make_immutable;
 
     my @strings = qw(foo foa bar);
 
-    my $clusterer = String::Clusterer::Hobohm->new( similarity => 0.62 );
+    my $clusterer = String::Cluster::Hobohm->new( similarity => 0.62 );
 
     my $groups = $clusterer->cluster( \@strings );
 
